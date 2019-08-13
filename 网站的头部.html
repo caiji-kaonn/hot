@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.head {
+			width: 760px;
+			height: 150px;
+			margin: 0 auto;
+			background: url(img/banner_bg.jpg);
+		}
+		.nav {
+			width: 760px;
+			height:32px;
+			background: red;
+			margin: 0 auto;
+			background: url(img/button1_bg.jpg);
+		}
+		li {
+			list-style: none;
+			float: left;
+			position: relative;
+
+		}
+		a {
+			display: inline-block;
+			text-decoration: none;
+			color: deeppink;
+			line-height: 32px;
+			width: 80px;
+			height: 32px;
+			background: url(img/button1.jpg);
+			text-align: center;
+			font-size: 12px;
+		}
+		a:hover {
+			background: url(img/button2.jpg);
+		}
+		.redBlock {
+			width: 760px;
+			height: 100px;
+			background: red;
+			margin: 0 auto;
+
+		}
+		li img{
+			position: absolute;
+			top:-10px;
+			right:0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="head">
+		<img src="img/banner1.jpg" alt="">
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a href="#">导航</a></li>
+			<li><a href="#">返回首页</a></li>
+			<li class="hot"><a href="#">网站介绍</a><img src="img/hot.png" alt=""></li>
+			<li><a href="#">想起来了</a></li>
+		</ul>
+	</div>
+<!-- 	<div class="redBlock">
+		<img src="img/ewm.bmp" alt="">
+	</div> -->
+</body>
+</html>
